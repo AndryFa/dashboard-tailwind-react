@@ -14,7 +14,7 @@ interface SummaryData {
 const ReceptionSummary: React.FC = () => {
   return (
     <div className="p-6 w-full max-w-sm">
-      <h2 className="text-xl font-semibold mb-4">Reception Summary</h2>
+      <h2 className="text-xl font-semibold text-[#393939] mb-4">Reception Summary</h2>
       <div className="space-y-4">
         {receptionData.map((item, index) => (
           <div key={index} className="flex items-center justify-between">

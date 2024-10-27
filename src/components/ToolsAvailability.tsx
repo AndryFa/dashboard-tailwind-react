@@ -6,7 +6,7 @@ import { ReactComponent as RentalItemsIcon} from '../assets/images/svg/rental-it
 const ToolsAvailability: React.FC = () => {
   return (
     <div className="bg-white rounded-[25px] shadow-lg min-h-80 max-h-80 p-6 border border-gray-300">
-        <div className="flex items-center mb-2">
+        <div className="flex items-center text-[#393939] mb-2">
             <h2 className="text-xl font-semibold">Tools and Equipments Availability</h2>
         </div>
         <div className="grid grid-rows-2">

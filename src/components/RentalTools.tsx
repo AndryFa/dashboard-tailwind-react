@@ -24,13 +24,13 @@ const getStatusStyle = (status: string) => {
 const RentalTools: React.FC = () => {
   return (
     <div className="bg-white shadow rounded-[25px] min-h-80 max-h-80 p-6 border border-gray-300">
-      <div className="flex items-center mb-4">
+      <div className="flex items-center text-[#393939] mb-4">
         <span className="text-2xl mr-2"><RentalItemsIcon/></span>
         <h2 className="text-xl font-semibold">Rental Tools</h2>
       </div>
       <table className="w-full table-auto">
         <thead>
-          <tr className="text-left border-b">
+          <tr className="text-left border-b table-head">
             <th className="py-2">Work Order</th>
             <th className="py-2">Tool Ref</th>
             <th className="py-2">Team Member</th>
@@ -44,7 +44,7 @@ const RentalTools: React.FC = () => {
             <tr key={rental.id} className="border-b">
               <td className="py-3">{rental.id.toString().padStart(2, "0")}</td>
               <td className="py-3"><ToolRef value={rental.toolRef}/></td>
-              <td className="py-3 flex items-center">
+              <td className="py-3 items-center">
                 <TeamMember 
                     name={rental.member}
                     imageUrl="https://randomuser.me/api/portraits/men/1.jpg"

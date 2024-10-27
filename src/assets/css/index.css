@@ -5,3 +5,7 @@
 .sidebar-menu :hover, .sidebar-menu :active {
   background-color: #645a5a;
 }
+.table-head {
+  color: #c7c7cd;
+  background-color: #fff;
+}
