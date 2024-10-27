@@ -21,12 +21,12 @@ const getStatusStyle = (status: string) => {
 const RestockItms: React.FC = () => {
   return (
     <div className="bg-white shadow rounded-[25px] min-h-80 max-h-80 p-6 border border-gray-300">
-      <div className="flex items-center mb-4">
+      <div className="flex items-center text-[#393939] mb-4">
         <h2 className="text-xl font-semibold">Restock Items</h2>
       </div>
       <table className="w-full table-auto">
         <thead>
-          <tr className="text-left border-b">
+          <tr className="text-left border-b table-head">
             <th className="py-2">Tool Ref</th>
             <th className="text-center">Tool/Equipment</th>
             <th className="py-2">Stock Status</th>
