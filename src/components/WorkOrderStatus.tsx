@@ -35,7 +35,7 @@ const WorkOrderStatus: React.FC<WorkOrderStatusProps> = ({ completed, inProgress
 
   return (
     <div className="bg-white rounded-[25px] shadow-lg min-h-80 max-h-80 p-6 border border-gray-300">
-      <h2 className="text-lg font-semibold mb-4">Work Order Status</h2>
+      <h2 className="text-lg font-semibold text-[#393939] mb-4">Work Order Status</h2>
       <div className="flex items-center space-x-4 pt-6">
         <Chart  options={chartOptions} series={chartSeries} type="donut" width="150" />
         <div className="space-y-2 w-full p-3">
